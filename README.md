@@ -8,7 +8,7 @@ A lightweight, fast, and polished clone of the classic arcade game **Space Invad
 * **Color Themes:** Full customization of colors for the player, enemies, and bullets.
 * **Remappable Controls:** Switch control schemes easily for a more comfortable gaming experience.
 * **Continuous Firing:** Hold down the attack key with a built-in weapon cooldown system.
-* **Zero-Lag Performance:** Extremely low memory footprint and high FPS thanks to Rust's zero-cost abstractions.
+* **Zero-Lag Performance:** Extremely low memory footprint thanks to Rust's zero-cost abstractions.
 
 ---
 
