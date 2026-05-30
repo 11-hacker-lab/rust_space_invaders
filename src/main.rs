@@ -619,7 +619,7 @@ async fn main() {
                 let color = if won { GREEN } else { RED };
                 draw_text(text, SCREEN_WIDTH / 2.0 - 140.0, SCREEN_HEIGHT / 2.0 - 50.0, 44.0, color);
                 draw_text(&format!("Score: {}", score), SCREEN_WIDTH / 2.0 - 60.0, SCREEN_HEIGHT / 2.0, 22.0, WHITE);
-                draw_text("ENTER — play again   ESC — menu", SCREEN_WIDTH / 2.0 - 200.0, SCREEN_HEIGHT / 2.0 + 50.0, 20.0, GRAY);
+                draw_text("ENTER - play again   ESC - menu", SCREEN_WIDTH / 2.0 - 200.0, SCREEN_HEIGHT / 2.0 + 50.0, 20.0, GRAY);
 
                 if is_key_pressed(KeyCode::Enter) {
                     score = 0;
